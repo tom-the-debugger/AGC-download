@@ -4,6 +4,9 @@ body {
     font-family: verdana, arial, helvetica;
     color: white;
     background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 button {
@@ -13,42 +16,44 @@ button {
     margin: 4pt;
 }
 
-._header {
-    padding: 4pt;
-    height: 100%;
-    background-color: #121267;
-    top: 0;
-    text-align: center;
-    align-items: center;
-    border-bottom: 0.2vh solid #CCCCCC;
+._header, ._footer {
+  background-color: #121267;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2pt #676767 solid
+}
+
+._container {
+  display: flex;
+  flex: 1;
+  min-height: 80vh;
+  overflow: hidden;
 }
 
 ._leftSidebar {
-    height: 93vh;
-    width: 15vh;
-    background-color: #121267;
-    padding: 4pt;
-    left: 0;
-    text-align: left;
-    align-items: center;
-    border-right: 0.2vh solid #CCCCCC;
+  background-color: #121267;
+  width: 12vh;
+  padding: 2vh;
+  box-sizing: border-box;
+  border-right: 2pt #676767 solid
 }
 
 ._content {
-    width: auto;
-    padding: 4pt;
-    text-align: left;
-    right: 0;
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+._footer {
+  background-color: #121267;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-top: 2pt #676767 solid;
 }
 
 ._centerText {
     text-align: center;
-}
-
-._footer {
-    left: 0;
-    bottom: 0;
-    background-color: #121267;
-    text-align: center;
-    border-top: 0.2vh solid #CCCCCC;
 }
