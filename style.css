@@ -37,6 +37,7 @@ button {
 ._content {
     padding: 4pt;
     text-align: left;
+    right: 0;
 }
 
 ._centerText {
@@ -47,5 +48,6 @@ button {
     left: 0;
     bottom: 0;
     background-color: #121267;
+    text-align: center;
     border-top: 0.2vh solid #CCCCCC;
 }
