@@ -2,7 +2,8 @@ body {
     padding: 0;
     margin: 0;
     font-family: verdana, arial, helvetica;
-    color: black;
+    color: white;
+    background-color: black;
 }
 
 button {
@@ -15,7 +16,7 @@ button {
 ._header {
     padding: 4pt;
     height: 100%;
-    background-color: #83CFFF;
+    background-color: #121267;
     top: 0;
     text-align: center;
     align-items: center;
@@ -25,10 +26,25 @@ button {
 ._leftSidebar {
     height: 93vh;
     width: 12vh;
-    background-color: #83CFFF;
+    background-color: #121267;
     padding: 4pt;
     left: 0;
     text-align: left;
     align-items: center;
     border-right: 0.2vh solid #CCCCCC;
+}
+
+._content {
+    padding: 4pt;
+    text-align: left;
+}
+
+._centerText {
+    text-align: center;
+}
+
+._footer {
+    left: 0;
+    bottom: 0;
+    background-color: #121267;
 }
