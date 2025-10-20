@@ -35,7 +35,7 @@ button {
 }
 
 ._content {
-    width: 85vh;
+    width: auto;
     padding: 4pt;
     text-align: left;
     right: 0;
