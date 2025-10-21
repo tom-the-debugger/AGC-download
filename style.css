@@ -16,6 +16,13 @@ button, a {
     border-color: gray;
     border-radius: 10px;
     padding: 8pt;
+    margin-bottom: 8pt;
+}
+
+._navBarButton {
+    width: 12vw;
+    left: 0;
+    position: absolute;
     margin: 8pt;
 }
 
@@ -36,10 +43,12 @@ button, a {
 
 ._leftSidebar {
   background-color: #121267;
-  width: 12vw;
+  width: 18vw;
   padding: 2vh;
   box-sizing: border-box;
-  border-right: 2pt #676767 solid
+  border-right: 2pt #676767 solid;
+  align-items: left;
+  overflow: auto;
 }
 
 ._content {
