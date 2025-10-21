@@ -17,13 +17,21 @@ button, a {
     border-radius: 10px;
     padding: 8pt;
     margin-bottom: 8pt;
-    display: inline-flex;
+    display: block;
+}
+
+._navBarButton:hover {
+    background-color: #888888;
+    transform: scale(1.1);
 }
 
 ._navBarButton {
     width: 12vw;
     left: 0;
-    margin: 8pt;
+    margin-bottom: 8pt;
+    transition: transform 0.2s ease, background 0.2s ease;
+    will-change: transform;
+    transform-origin: center;
 }
 
 ._header, ._footer {
@@ -68,4 +76,8 @@ button, a {
 
 ._centerText {
     text-align: center;
+}
+
+._mainLink {
+    width: 50%
 }
