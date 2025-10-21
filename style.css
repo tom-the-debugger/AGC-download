@@ -73,6 +73,7 @@ button, a {
   text-align: center;
   padding: 10px;
   border-top: 2pt #676767 solid;
+  display: fixed;
 }
 
 ._centerText {
