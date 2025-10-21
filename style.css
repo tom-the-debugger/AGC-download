@@ -90,3 +90,9 @@ button, a {
     width: 12vw;
     background-color: #565656;
 }
+
+._inlineLink {
+    padding: 0;
+    background-color: none;
+    color: inherit;
+}
