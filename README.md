@@ -4,6 +4,6 @@
 
 Yeah there isn't too much to say. Now use the website please.
 
-This site is currently under development, and the full features are yet to come. Please be patient while we update the site.
+**This site is currently under development, and the full features are yet to come. Please be patient while we update the site.**
 
 Licence: MIT
