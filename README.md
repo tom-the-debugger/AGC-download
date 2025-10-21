@@ -1,4 +1,4 @@
-<ins>**# AGC Client**</ins>
+# AGC Client
 
 *this bookmarklet generator is used with the permission of the owners of the projects that may be listed*
 
