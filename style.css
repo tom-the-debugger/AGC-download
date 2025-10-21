@@ -104,12 +104,3 @@ button, a {
 ._inlineLink:hover {
   color: aqua;
 }
-
-._dragThisLink::after {
-  content: "Client download";
-}
-
-._dragThisLink:hover::after {
-  background-color: #503030
-  content: "Rename this bookmarklet to something reasonable";
-}
