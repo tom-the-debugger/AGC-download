@@ -22,7 +22,6 @@ button, a {
 ._navBarButton {
     width: 12vw;
     left: 0;
-    position: absolute;
     margin: 8pt;
 }
 
