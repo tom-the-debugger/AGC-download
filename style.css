@@ -103,3 +103,7 @@ button, a {
 ._inlineLink:hover {
     color: aqua;
 }
+
+[aria-disabled="true"]:hover {
+  background-color: #503030
+}
