@@ -85,8 +85,12 @@ button, a {
 }
 
 ._mainLink {
-  width: 30%;
+  width: 40%;
   transition: background 0.2s ease;
+}
+
+._mainLink:hover {
+  background-color: #121267;
 }
 
 ._navBarButton-Selected {
