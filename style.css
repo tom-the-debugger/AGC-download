@@ -85,7 +85,7 @@ button, a {
 }
 
 ._mainLink {
-  width: 30%
+  width: 30%;
   transition: background 0.2s ease;
 }
 
