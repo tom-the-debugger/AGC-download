@@ -17,6 +17,7 @@ button, a {
     border-radius: 10px;
     padding: 8pt;
     margin-bottom: 8pt;
+    display: inline-flex;
 }
 
 ._navBarButton {
