@@ -94,6 +94,11 @@ button, a {
 ._inlineLink {
     padding: 0;
     background: none;
-    color: inherit;
+    color: blue;
     display: inline-block;
+    transition: color 0.2s ease;
+}
+
+._inlineLink:hover {
+    color: aqua;
 }
