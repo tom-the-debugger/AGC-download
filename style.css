@@ -76,32 +76,33 @@ button, a {
 }
 
 ._centerText {
-    text-align: center;
+  text-align: center;
 }
 
 ._boldText {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 ._mainLink {
-    width: 30%
+  width: 30%
+  transition: background 0.2s ease;
 }
 
 ._navBarButton-Selected {
-    width: 12vw;
-    background-color: #565656;
+  width: 12vw;
+  background-color: #565656;
 }
 
 ._inlineLink {
-    padding: 0;
-    background: none;
-    color: blue;
-    display: inline-block;
-    transition: color 0.2s ease;
+  padding: 0;
+  background: none;
+  color: blue;
+  display: inline-block;
+  transition: color 0.2s ease;
 }
 
 ._inlineLink:hover {
-    color: aqua;
+  color: aqua;
 }
 
 _mainLink:hover {
