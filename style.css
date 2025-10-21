@@ -78,6 +78,10 @@ button, a {
     text-align: center;
 }
 
+._boldText {
+    font-weight: bold;
+}
+
 ._mainLink {
     width: 50%
 }
