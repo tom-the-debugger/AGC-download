@@ -22,7 +22,7 @@ button, a {
 
 ._navBarButton:hover {
   background-color: #888888;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 ._navBarButton {
