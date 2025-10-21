@@ -87,5 +87,6 @@ button, a {
 }
 
 ._navBarButton-Selected {
+    width: 12vw;
     background-color: #888888;
 }
