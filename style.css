@@ -84,7 +84,7 @@ button, a {
 }
 
 ._mainLink {
-    width: 50%
+    width: 30%
 }
 
 ._navBarButton-Selected {
@@ -104,6 +104,6 @@ button, a {
     color: aqua;
 }
 
-[aria-disabled="true"]:hover {
+_mainLink:hover {
   background-color: #503030
 }
