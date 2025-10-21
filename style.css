@@ -81,3 +81,7 @@ button, a {
 ._mainLink {
     width: 50%
 }
+
+._navBarButton-Selected {
+    background-color: #888888;
+}
